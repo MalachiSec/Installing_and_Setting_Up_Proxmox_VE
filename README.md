@@ -1,6 +1,6 @@
 # Installing and Setting Up Proxmox VE
 
-![Proxmox Logo](https://upload.wikimedia.org/wikipedia/commons/1/1e/Proxmox-VE-Logo.svg)
+![Proxmox Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Logo_Proxmox.svg/2560px-Logo_Proxmox.svg.png)
 
 A step-by-step guide to installing and configuring [Proxmox Virtual Environment (VE)](https://www.proxmox.com/en/proxmox-ve), a powerful open-source virtualization platform for running virtual machines and containers.
 
