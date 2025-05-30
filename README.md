@@ -15,9 +15,12 @@ A step-by-step guide to installing and configuring [Proxmox Virtual Environment 
 - [Post-Installation Setup](#post-installation-setup)
 - [Access the Web Interface](#access-the-web-interface)
 - [Initial Configuration](#initial-configuration)
+- [Your Proxmox Projects](#your-proxmox-projects)
 - [Optional Tweaks](#optional-tweaks)
 - [Troubleshooting](#troubleshooting)
 - [Resources](#resources)
+- [License](#license)
+- [Author](#author)
 
 ---
 
