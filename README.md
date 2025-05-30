@@ -138,4 +138,4 @@ MIT License – feel free to use and contribute.
 
 ## ✍️ Author
 
-Your Name – [@yourgithub](https://github.com/yourgithub)
+Malachi Rewane – [@MalachiSec](https://github.com/MalachiSec)
