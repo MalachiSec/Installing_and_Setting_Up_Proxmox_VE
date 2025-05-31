@@ -59,7 +59,7 @@ To create a bootable USB for Proxmox VE on Windows:
 7. Reboot the system and remove the USB drive.
 
 > 📷 **Install Proxmox VE Setup Picture**
-<img src="https://i.imgur.com/VMfnjNx.jpeg" width="400" height="400" />
+<img src="https://i.imgur.com/VMfnjNx.jpeg" width="528" height="704" />
 
 ---
 
@@ -71,43 +71,8 @@ To create a bootable USB for Proxmox VE on Windows:
    - **User:** `root`
    - **Password:** (the one you set during install)
 
----
-
-## 🌐 Access the Web Interface
-
-- Make sure you are on the same network as the server.
-- Accept the self-signed SSL certificate warning.
-- You'll land on the Proxmox dashboard.
-
----
-
-## 🛠️ Initial Configuration
-
-- Upload ISO images for VMs.
-- Configure storage (local, NFS, ZFS, etc.).
-- Add network bridges for VMs.
-- Create your first VM or LXC container.
-
----
-
-## 🧰 Optional Tweaks
-
-- Disable subscription nag popup: sed -i.bak "s/data.status !== 'Active'/false/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
-systemctl restart pveproxy
-
-*(Note: Might need to redo after updates)*
-
-- Setup SSH key login
-- Configure email alerts
-- Add a backup schedule
-
----
-
-## ❗ Troubleshooting
-
-- Web UI not loading? Check firewall and network settings.
-- Missing ISO uploads? Check `/var/lib/vz/template/iso/`
-- Disk space issues? Run `df -h` to inspect partitions.
+> 📷 **Proxmox VE Web Login**
+<img src="https://i.imgur.com/pDkltWg.png" />
 
 ---
 
