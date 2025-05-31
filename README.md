@@ -26,20 +26,22 @@ A step-by-step guide to installing and configuring [Proxmox Virtual Environment 
 
 ---
 
-## 🔥 Create a Bootable USB
+## 🔥 Create a Bootable USB (Windows Only)
 
-Use tools like:
+To create a bootable USB for Proxmox VE on Windows:
 
-- **Rufus** (Windows)
-- **Etcher** (macOS/Linux)
-- `dd` command (Linux CLI)
+1. Download and install [**Rufus**](https://rufus.ie/en/).
+2. Insert your USB flash drive (8GB or larger).
+3. Open Rufus and configure:
+   - **Device:** Select your USB drive.
+   - **Boot selection:** Choose the downloaded **Proxmox VE ISO**.
+   - **Partition scheme:** Select `MBR` or `GPT` (depending on your system).
+4. Click **Start** to begin flashing.
+5. Once complete, safely eject the USB drive.
 
-**Example with Rufus:**
+> 📷 **Rufus Setup Screenshot**
 
-1. Insert your USB drive.
-2. Open Rufus and select the Proxmox ISO.
-3. Set Partition Scheme: `MBR` or `GPT` (depending on your system).
-4. Click **Start** to flash.
+![Rufus Screenshot](https://i.imgur.com/ZjNwPlU.png)
 
 ---
 
@@ -56,6 +58,10 @@ Use tools like:
 6. Wait for installation to complete.
 7. Reboot the system and remove the USB drive.
 
+> 📷 **Rufus Setup Screenshot**
+
+![Rufus Screenshot](https://i.imgur.com/VMfnjNx.jpeg )
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://i.imgur.com/VMfnjNx.jpeg" width="400" height="400" />
 ---
 
 ## ⚙️ Post-Installation Setup
