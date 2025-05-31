@@ -58,10 +58,9 @@ To create a bootable USB for Proxmox VE on Windows:
 6. Wait for installation to complete.
 7. Reboot the system and remove the USB drive.
 
-> 📷 **Rufus Setup Screenshot**
+> 📷 **Install Proxmox VE Setup Picture**
+<img src="https://i.imgur.com/VMfnjNx.jpeg" width="400" height="400" />
 
-![Rufus Screenshot](https://i.imgur.com/VMfnjNx.jpeg )
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://i.imgur.com/VMfnjNx.jpeg" width="400" height="400" />
 ---
 
 ## ⚙️ Post-Installation Setup
